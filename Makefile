@@ -40,4 +40,4 @@ test: build check-syntax-errors check-style
 	#python -m pip install ../openfisca_nsw_base/
 	python -m pip install openfisca_nsw_base
 	pip install -e .
-	openfisca test openfisca_nsw_ess_core/tests --country-package openfisca_nsw_base --extensions openfisca_nsw_ess_core
+	openfisca test openfisca_nsw_ess_core/tests --country-package openfisca_nsw_base --extensions openfisca_nsw_ess_sandbox
