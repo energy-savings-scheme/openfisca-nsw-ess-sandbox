@@ -1,0 +1,8 @@
+- name: "Test"
+  period: 2021
+  absolute_error_margin: 0.5
+  input:
+    electricity_savings: 20
+    gas_savings: 10
+  output:
+    number_of_certificates: 25
