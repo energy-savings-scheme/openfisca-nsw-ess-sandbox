@@ -1,9 +1,6 @@
-# $ESS_CORE
+# $ESS_SANDBOX
 
-This is the Core repository for the OpenFISCA version of the ESS.
-Currently, in the long term this will be used to contain all of the foundations
-of the ESS' Rules as Code project - think clauses 1 - 6, which are used for all
-methods of the ESS.
+This is a Sandbox for the ESS team to experiment on Rules as Code projects.
 
 ## Initialising
 
