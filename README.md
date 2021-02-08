@@ -4,10 +4,10 @@ This is a Sandbox for the ESS team to experiment on Rules as Code projects.
 
 ## Initialising
 
-You'll need to rename the openfisca_nsw_ess_core directory to the name
+You'll need to rename the openfisca_nsw_ess_sandbox directory to the name
 of your extension. Also edit README.md, MANIFEST.in, setup.py & Makefile, and replace $EXT_NAME with the
 name of your extension. Replace $SHORT_NAME with a shortened name for it, for example
-openfisca-nsw-ess_core is shortened to "ess_core". This just makes it easier to
+openfisca-nsw-ess_sandbox is shortened to "ess_sandbox". This just makes it easier to
 switch to the virtual env.
 
 
