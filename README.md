@@ -17,9 +17,9 @@ switch to the virtual env.
 you may need to add `--user` at the end of all commands starting by `pip`.
 
 ```sh
-python3 -m venv $ess_core
+python3 -m venv $ess_sandbox
 deactive
-source $ess_core/bin/activate
+source $ess_sandbox/bin/activate
 
 ```
 To install your extension, run:
