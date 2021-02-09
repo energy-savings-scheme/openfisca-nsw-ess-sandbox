@@ -10,11 +10,10 @@ name of your extension. Replace $SHORT_NAME with a shortened name for it, for ex
 openfisca-nsw-ess_sandbox is shortened to "ess_sandbox". This just makes it easier to
 switch to the virtual env.
 
-
 ## Installing
 
 > We recommend that you use a virtualevn to install OpenFisca. If you don't,
-you may need to add `--user` at the end of all commands starting by `pip`.
+> you may need to add `--user` at the end of all commands starting by `pip`.
 
 ```sh
 python3 -m venv $ess_sandbox
@@ -22,6 +21,7 @@ deactive
 source $ess_sandbox/bin/activate
 
 ```
+
 To install your extension, run:
 
 ```sh
@@ -42,3 +42,5 @@ extension's name, and add your extension as a dependency.
 > [Learn more about tests](http://openfisca.org/doc/coding-the-legislation/writing_yaml_tests.html).
 
 Your extension package is now installed and ready!
+
+TEST
