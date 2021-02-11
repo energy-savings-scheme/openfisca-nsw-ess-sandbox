@@ -10,8 +10,8 @@
             "request": "launch",
             "module": "openfisca_core.scripts.openfisca_command",
             "args": ["test", "openfisca_nsw_ess_sandbox/tests", 
-                "--country-package", "openfisca_nsw_base",
-                "--extension", "openfisca_nsw_ess_sandbox"
+                // "--country-package", "openfisca_nsw_base",
+                // "--extension", "openfisca_nsw_ess_sandbox"
             ],
 			"console": "integratedTerminal",
         },

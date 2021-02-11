@@ -1,0 +1,25 @@
+description: Determines whether the Implementation is in a 1politan Levy
+  Area, based on postcode.
+reference: Table "Equipment Electricity Savings" in Activity Definition B1 of the ESS Rule 2020.
+four_star:
+  metadata:
+    type: single_amount
+  brackets:
+    - amount:
+        2020-01-01:
+          value: 0
+      threshold:
+        2020-01-01:
+          value: 0 # 4kg < Load
+    - amount:
+        2020-01-01:
+          value: 2.5
+      threshold:
+        2020-01-01:
+          value: 4 # 4kg < Load
+    - amount:
+        2020-01-01:
+          value: 0
+      threshold:
+        2020-01-01:
+          value: 6.5 # 6.5kg < Load

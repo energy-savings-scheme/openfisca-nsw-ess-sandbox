@@ -22,15 +22,14 @@ setup(
         ("share/openfisca/openfisca_nsw_ess_sandbox", ["CHANGELOG.md", "LICENSE", "README.md"]),
         ],
     install_requires = [
-        'OpenFisca_nsw_base'
-
+        "OpenFisca-Core[web-api] >= 29.0",
         ],
     extras_require = {
         "dev": [
-            "autopep8 ==1.4.4",
-            "flake8 >=3.5.0,<3.8.0",
+            "autopep8 == 1.4.0",
+            "flake8 >= 3.5.0, < 3.6.0",
             "flake8-print",
-            "pycodestyle >=2.3.0,<2.6.0",  # To avoid incompatibility with flake
+            "pycodestyle >= 2.3.0, < 2.4.0",  # To avoid incompatibility with flake
             ]
         },
     packages=find_packages(),

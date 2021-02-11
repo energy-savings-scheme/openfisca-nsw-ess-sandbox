@@ -1,8 +1,22 @@
-- name: "Test"
+- name: "Test is_eligible calc"
   period: 2021
-  absolute_error_margin: 0.5
   input:
-    electricity_savings: 20
-    gas_savings: 10
+    star_rating: four_star
+    washer_load: 6
+    washer_type: top_loader
   output:
-    number_of_certificates: 25
+    is_washer_eligible: true
+- name: "Test is_eligible calc should fail"
+  period: 2021
+  input:
+    star_rating: four_star
+    washer_type: top_loader
+  output:
+    is_washer_eligible: false
+- name: "Test washer_energy_saving"
+  period: 2021
+  input:
+    star_rating: four_star
+    washer_load: 5
+  output:
+    washer_energy_saving: 2.5
