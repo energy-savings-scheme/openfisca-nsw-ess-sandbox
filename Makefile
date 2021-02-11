@@ -37,5 +37,5 @@ check-style:
 	flake8 `git ls-files | grep "\.py$$"`
 
 test:
-	pip install -e .
+	#pip install -e .
 	openfisca test openfisca_nsw_ess_sandbox/tests
